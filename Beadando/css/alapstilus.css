@@ -1,0 +1,221 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+ 
+body {
+	font-family:Arial, Verdana, Helvetica, sans-serif; 
+	background-color:black;							
+	background-image:url('../kepek/hatter felso.jpg'), url('../kepek/hatter also.png');
+
+	background-repeat:no-repeat, repeat-x; 	
+	background-position:10px 0px, left bottom;
+	margin-bottom:120px;
+	margin-top:100px;	
+}
+
+h1,h2 {
+    font-family: 'Oswald', sans-serif;
+	text-shadow:3px 3px 3px #ccc;
+}
+
+p {
+	text-align:justify;
+}
+ 
+/* oldalszerkezet */
+
+header, main, footer {
+	width:100%;	
+	min-width:400px;
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	background-color:white;
+	padding:10px;
+}
+	
+header, footer {opacity:0.9;}
+	
+header {
+	border-radius: 10px 10px 0 0 ; 
+	padding-bottom:0;
+	position:relative;				    
+}
+
+footer  {
+	border-radius: 0 0 10px 10px;
+}	
+
+article  {
+	margin:0 2em;					
+	border-bottom:1px dotted gray;
+	padding-bottom:20px;
+	overflow:hidden; 				
+}
+
+footer p {
+	text-align: center;
+}
+
+article:last-of-type {border:0;}
+
+/* oldalszerkezet vége */
+
+/* navigáció */
+header nav {
+	background-color:orange; 
+	padding:5px 5px 5px 10px;		
+	margin-left:-10px;				
+	margin-right:-10px;				
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+header nav  ul  li  {
+	display:inline;	
+	white-space: nowrap;		
+}
+
+header nav  ul  li  a {
+	text-decoration: none;	
+}
+
+header nav a {
+	font-variant:small-caps;
+	font-size:1.5em;	
+	margin-right:1em;
+}						
+
+nav#gyengenlato {
+	position:absolute; 		
+	width:210px;			
+	right:20px;	
+	top:10px;
+	border:1px solid black;
+	border-radius:0 10px 0 0 ; 
+}
+
+nav#gyengenlato span {		
+	display:inline-block;
+	width:60px;
+	height:60px;
+	margin-right:5px;
+	background-position:-240px 0px;
+	float:left;
+}
+
+a#normalbetu {display: none;}		
+
+article#leiras  aside {
+  float:right;	
+  width:250px;
+  font-style:italic;
+  border:1px solid #999;
+  background-color:#d3a614;	
+  padding:20px;
+  margin:0 10px 10px 20px;		
+  border-radius:5px;
+  box-shadow:10px 10px 5px lightgray; 
+}
+
+article#leiras aside p {
+	text-align:right; 		
+	font-weight:bold;
+	font-size:90%;
+}
+
+article aside {
+	float: right;		
+}
+
+q {
+	text-align:justify;
+	display:block;
+}			
+	
+article#tortenet   {
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-gap: 20px;
+}
+
+article#tortenet figure {
+	float: right;
+}
+
+article#pegi {
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-gap: 20px;
+}
+
+article#besorolas table {
+	border-collapse:collapse;
+	border:3px double gray;	
+	margin:0 auto;
+}
+
+article#besorolas table th {background-color:orange } 
+
+article#besorolas table td, article#besorolas table th {
+	border:1px solid gray;
+	padding:5px;
+}
+
+caption {caption-side: bottom;}	
+
+/* nyomtatás média beállítása */
+
+@media print {
+
+body {
+	font-family:'Times New Roman', Times, serif;
+	margin:3cm;
+}
+
+header, main, footer {
+	width:100%;
+	padding:0;
+}
+
+nav {display:none}
+
+a:after { content: " (" attr(href) ")";} 
+
+@media screen and (max-width: 700px) 
+{
+
+article#leiras  aside {
+	float:none;	
+	width:300px;
+	margin:0;
+}
+
+nav#oldalmenu li {display:block}
+
+article#tortenet   {
+	column-count: 1;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+
+article#pegi {
+	column-count: 1;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+	column-gap: 20px;
+}
+			
+article#pegi figure {
+	position:static;
+	margin-left:100px;
+}			
+
+article#pegi {
+	padding-bottom:30px;
+}
+
+}
+}
