@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Kapcsolat</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/alapstilus.css">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+    <script src="scripts/styleswitcher.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Kapcsolat</h1>
+        <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span
+                    class="ikon"></span>Nagybetűs
+                változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál
+                változat</a>
+        </nav>
+        <nav id="oldalmenu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="mufajok.html">Műfajok</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="tartalom">
+        <div class="container">
+            <div class="row">
+                <div class="halo">
+                    <p>Ha szeretnél tagja lenni a <strong>GAMER</strong> csapatunknak jelentkezz! </p>
+                    <p>Telefonszám: 0670706060</p>
+                    <p>Email-cím: leokingerozum@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form">
+                    <form action="mailto:leokingerozum@gmail.com">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="name" type="text" class="form-control" name="név" placeholder="Név">
+
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email"><br>
+                            <input type="radio" name="gender" value="male" checked> Male<br>
+                            <input type="radio" name="gender" value="female"> Female<br>
+                            <input type="radio" name="gender" value="other"> Other
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Tárgy:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Rendelés</option>
+                                <option>Panasz</option>
+                                <option>Egyéb</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Üzenet:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Igen">Tetszett az oldal?</label>
+                        </div>
+                        <button type="reset" class="btn btn-primary">Újra</button>
+                        <button type="submit" class="btn btn-primary">Küldés</button>
+                    </form>
+                </div>
+            </div>
+        </div><br>
+
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
