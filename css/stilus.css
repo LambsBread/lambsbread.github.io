@@ -170,7 +170,10 @@ article {
 	-webkit-column-width: 400px;
     -moz-column-width: 400px;
 }
-			
+	
+article#besorolas table {
+	width: 100%;
+}
 }
 
 @media screen and (max-width: 700px) 
