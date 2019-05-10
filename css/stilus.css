@@ -83,6 +83,12 @@ aside figure {
 
 article#leiras {
 	text-align:left;
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	-webkit-column-width: 150px;
+    -moz-column-width: 150px;
+	column-width: 150px;
 }
 
 article#leiras aside {
