@@ -83,11 +83,6 @@ aside figure {
 	width:auto;
 }
 
-article#leiras aside figure {
-	float:right;
-	position:relative;
-}
-
 article#leiras aside {
   float:right;
   width:225px;
@@ -95,7 +90,7 @@ article#leiras aside {
   border:1px ridge #999;
   background-color:#d3a614;	
   padding:20px;
-  margin:0 10px 10px 20px;		
+  margin:0 10px 10px 0px;		
   border-radius:10px;
   box-shadow:10px 10px 5px lightgray; 
 }
