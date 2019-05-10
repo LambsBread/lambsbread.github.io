@@ -8,7 +8,7 @@ body {
 	margin-top:100px;
 }
 
-h1,h2 {
+h1 {
 	margin-left:10px;
 }
 
@@ -75,6 +75,10 @@ article:last-of-type {border:0;}
 aside img {
 	float:right;
 	width:auto;
+}
+
+figcaption {
+	margin-left:0px;
 }
 
 article#leiras aside {
