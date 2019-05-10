@@ -191,11 +191,7 @@ article {
 }
 
 article#besorolas table {
-	table-layout: auto;
-}
-
-article#besorolas table .absorbing-column {
-    width: 100%;
+	width: 100%;
 }
 
 }
