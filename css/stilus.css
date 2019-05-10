@@ -67,10 +67,7 @@ article {
 	margin:0 2em;					
 	border-bottom:1px dotted gray;
 	padding-bottom:20px;
-	overflow:hidden;
-	-webkit-column-width: 300px;
-    -moz-column-width: 300px;
-	column-width: 300px;	
+	overflow:hidden;	
 }
 
 article p {
@@ -121,9 +118,6 @@ article#besorolas table {
 	border-collapse:collapse;
 	border:3px double gray;	
 	margin:0 auto;
-	-webkit-column-width: 2250px;
-    -moz-column-width: 2250px;
-	column-width: 2150px;
 }
 
 article#besorolas table th {
