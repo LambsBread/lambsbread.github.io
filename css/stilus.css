@@ -26,22 +26,13 @@ header, main, footer {
 	padding:10px;
 }
 
-footer  {
+footer {
 	border-radius: 0 0 10px 10px;
 }	
 
 footer p {
 	text-align: center;
 }
-
-article {
-	margin:0 2em;					
-	border-bottom:1px dotted gray;
-	padding-bottom:20px;
-	overflow:hidden; 				
-}
-
-article:last-of-type {border:0;}
 
 header nav {
 	background-color:orange; 
@@ -70,12 +61,22 @@ header nav a {
 	margin-right:1em;
 }
 
+article {
+	margin:0 2em;					
+	border-bottom:1px dotted gray;
+	padding-bottom:20px;
+	overflow:hidden;
+	column-count: 2;			
+}
+
+article:last-of-type {border:0;}
+
 article aside {
 	float: right-side;		
-}		
+}
 
 article#leiras aside {
-  float:right;	
+  float:right;
   width:225px;
   font-style:italic;
   border:1px ridge #999;
@@ -130,7 +131,7 @@ nav {display:none}
 
 a:after { content: " (" attr(href) ")";} 
 
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 1200px) 
 {
 
 article#leiras  aside {
@@ -142,9 +143,9 @@ article#leiras  aside {
 nav#oldalmenu li {display:block}
 
 article {
-	column-count: 1;
-	-webkit-column-count: 1;
-    -moz-column-count: 1;
+	column-width: 300px;
+	-webkit-column-width: 300px;
+    -moz-column-width: 300px;
 }
 			
 }
