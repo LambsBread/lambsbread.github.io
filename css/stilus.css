@@ -128,7 +128,6 @@ article#besorolas table {
 	border-collapse:collapse;
 	border:3px double gray;	
 	margin:0 auto;
-	width: 100%;
 }
 
 article#besorolas table th {background-color:orange } 
