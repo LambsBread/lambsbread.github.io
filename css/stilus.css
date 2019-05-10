@@ -169,7 +169,7 @@ article {
 }
 	
 article#besorolas table {
-	position:relative;
+	display: block;
 }
 
 }
@@ -190,6 +190,11 @@ article {
 	-webkit-column-count: 1;
     -moz-column-count: 1;
 }
+
+article#besorolas table {
+	display: block;
+}
+
 
 }
 
