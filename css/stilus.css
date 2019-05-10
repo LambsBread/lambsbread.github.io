@@ -67,9 +67,7 @@ article {
 	margin:0 2em;					
 	border-bottom:1px dotted gray;
 	padding-bottom:20px;
-	overflow:hidden;
-	-webkit-column-span: all; 
-    column-span: all; 	
+	overflow:hidden;	
 }
 
 article p {
