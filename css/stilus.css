@@ -70,12 +70,6 @@ article {
 	overflow:hidden;		
 }
 
-article#leiras{
-	-webkit-column-count: 2;
-    -moz-column-count: 2;
-	column-count: 2;
-}
-
 article:last-of-type {border:0;}
 
 aside figure {
@@ -96,18 +90,10 @@ article#leiras aside {
 }
 
 article#leiras aside p {
-	float: right;
 	text-align:right; 		
 	font-weight:bold;
 	font-size:95%;
 }
-/*
-article#tortenet {
-	-webkit-column-width: 350px;
-    -moz-column-width: 350px;
-	column-width: 350px;
-	column-gap: 10px;
-}*/
 
 article#tortenet figure {
 	float: right;
