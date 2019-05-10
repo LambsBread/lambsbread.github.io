@@ -70,17 +70,17 @@ article {
 	overflow:hidden;		
 }
 
+article#leiras{
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-count: 2;
+}
+
 article:last-of-type {border:0;}
 
 aside figure {
 	float:right;
 	width:auto;
-}
-
-article#leiras{
-	-webkit-column-count: 2;
-    -moz-column-count: 2;
-	column-count: 2;
 }
 
 article#leiras aside {
