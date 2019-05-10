@@ -72,13 +72,9 @@ article {
 
 article:last-of-type {border:0;}
 
-aside img {
+aside figure {
 	float:right;
 	width:auto;
-}
-
-figcaption {
-	margin-left:0px;
 }
 
 article#leiras aside {
