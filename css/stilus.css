@@ -104,6 +104,7 @@ article#besorolas table {
 	border-collapse:collapse;
 	border:3px double gray;	
 	margin:0 auto;
+	position: static;
 }
 
 article#besorolas table th {background-color:orange } 
