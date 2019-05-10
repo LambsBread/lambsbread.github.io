@@ -109,9 +109,10 @@ article#leiras aside p {
 	font-size:95%;
 }
 
-article#tortenet figure {
-	float: right;
-	margin:20px 20px 10px 10px;
+article#tortenet  {
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
 }
 
 article#pegi {
