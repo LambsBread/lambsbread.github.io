@@ -96,6 +96,7 @@ article#leiras aside {
 }
 
 article#leiras aside p {
+	float: right;
 	text-align:right; 		
 	font-weight:bold;
 	font-size:95%;
