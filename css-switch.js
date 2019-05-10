@@ -25,7 +25,7 @@
 
     link.type = 'text/css'
     link.rel = 'stylesheet'
-    link.href = '' + newMode + '.css' // Az elsõ aposztrófpár közé elérési útvonal kerülhet
+    link.href = '' + newMode + '.css'
 
     document.head.appendChild(link)
   }
