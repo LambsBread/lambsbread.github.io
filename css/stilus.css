@@ -67,7 +67,14 @@ article {
 	margin:0 2em;					
 	border-bottom:1px dotted gray;
 	padding-bottom:20px;
-	overflow:hidden;		
+	overflow:hidden;
+	column-count: 3;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+	-webkit-column-width: 250px;
+    -moz-column-width: 250px;
+	column-width: 250px;
+	column-gap: 10px;		
 }
 
 article:last-of-type {border:0;}
