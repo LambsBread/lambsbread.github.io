@@ -124,6 +124,7 @@ article#besorolas table {
 	border-collapse:collapse;
 	border:3px double gray;	
 	margin:0 auto;
+	width: 100%;
 }
 
 article#besorolas table th {background-color:orange } 
@@ -153,7 +154,7 @@ nav {display:none}
 
 a:after { content: " (" attr(href) ")";} 
 
-@media screen and (max-width: 1200px) 
+@media screen and (max-width: 1000px) 
 {
 
 article#leiras  aside {
@@ -165,9 +166,9 @@ article#leiras  aside {
 nav#oldalmenu li {display:block}
 
 article {
-	column-width: 300px;
-	-webkit-column-width: 300px;
-    -moz-column-width: 300px;
+	column-width: 400px;
+	-webkit-column-width: 400px;
+    -moz-column-width: 400px;
 }
 			
 }
