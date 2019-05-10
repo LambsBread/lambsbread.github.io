@@ -157,6 +157,13 @@ body {
 	font-family:sans-serif;
 }
 
+article#tortenet   {
+	column-count: 1;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+	column-gap: 20px;
+}
+
 article#leiras  aside {
 	float:none;	
 	width:300px;
