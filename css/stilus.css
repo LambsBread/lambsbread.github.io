@@ -1,0 +1,194 @@
+body {
+	font-family:Arial; 
+	background-color:black;							
+	background-image:url('../kepek/hatter felso.jpg'), url('../kepek/hatter also.png');
+	background-repeat:no-repeat, repeat-x; 	
+	background-position:10px 0px, left bottom;
+	margin-bottom:120px;
+	margin-top:100px;	
+}
+
+h1 {
+	margin-left:10px;
+}
+
+p {
+	text-align:justify;
+}
+
+header, main, footer {
+	width:100%;	
+	min-width:420px;
+	max-width:1080px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding:10px;
+}
+
+footer  {
+	border-radius: 0 0 10px 10px;
+}	
+
+footer p {
+	text-align: center;
+}
+
+article {
+	margin:0 2em;					
+	border-bottom:1px dotted gray;
+	padding-bottom:20px;
+	overflow:hidden; 				
+}
+
+article:last-of-type {border:0;}
+
+header nav {
+	background-color:orange; 
+	margin-left:-10px;				
+	margin-right:-10px;				
+	border-top:1px ridge black;
+	border-bottom:1px ridge black;
+}
+
+header nav ul li {
+	display:inline;	
+	white-space: nowrap;		
+}
+
+header nav ul li a {
+	text-decoration: none;	
+}
+
+header nav ul li  a:hover {
+	color: black;	
+}
+
+header nav a {
+	font-variant:big-caps;
+	font-size:1.5em;	
+	margin-right:1em;
+}						
+
+article#leiras aside {
+  float:right;	
+  width:225px;
+  font-style:italic;
+  border:1px ridge #999;
+  background-color:#d3a614;	
+  padding:20px;
+  margin:0 10px 10px 20px;		
+  border-radius:10px;
+  box-shadow:10px 10px 5px lightgray; 
+}
+
+article#leiras aside p {
+	text-align:right; 		
+	font-weight:bold;
+	font-size:95%;
+}
+
+article aside {
+	float: right-side;		
+}		
+	
+article#tortenet {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-width: 150px;
+    -moz-column-width: 150px;
+	column-width: 150px;
+	column-gap: 10px;
+}
+
+article#tortenet figure {
+	float: right;
+	margin:20px 40px 10px 10px;
+}
+
+article#pegi {
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	-webkit-column-width: 150px;
+    -moz-column-width: 150px;
+	column-width: 150px;
+	column-gap: 10px;
+}
+
+article#besorolas table {
+	border-collapse:collapse;
+	border:3px double gray;	
+	margin:0 auto;
+}
+
+article#besorolas table th {background-color:orange } 
+
+article#besorolas table td, article#besorolas table th {
+	border:1px solid gray;
+	padding:5px;
+}
+
+caption {caption-side: bottom;}	
+
+/* nyomtatás média beállítása */
+
+@media print {
+
+body {
+	font-family:'Times New Roman', Times, serif;
+	margin:3cm;
+}
+
+header, main, footer {
+	width:100%;
+	padding:0;
+}
+
+nav {display:none}
+
+a:after { content: " (" attr(href) ")";} 
+
+@media screen and (max-width: 700px) 
+{
+
+article#leiras  aside {
+	float:none;	
+	width:300px;
+	margin:0;
+}
+
+nav#oldalmenu li {display:block}
+
+article {
+	column-count: 1;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+			
+}
+
+@media screen and (max-width: 700px) 
+{
+
+article#leiras  aside {
+	float:none;	
+	width:300px;
+	margin:0;
+}
+
+nav#oldalmenu li {display:block}
+
+article {
+	column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	-webkit-column-width: 150px;
+    -moz-column-width: 150px;
+	column-width: 150px;
+}
+			
+}
+
+}
