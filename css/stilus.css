@@ -124,7 +124,7 @@ article#besorolas table {
 	border-collapse:collapse;
 	border:3px double gray;	
 	margin:0 auto;
-	width: 100%;
+	width: 700px;
 }
 
 article#besorolas table th {background-color:orange } 
@@ -189,7 +189,11 @@ article {
 	-webkit-column-count: 1;
     -moz-column-count: 1;
 }
-			
+
+article#besorolas table {
+	width: 400px;
+}
+
 }
 
 }
