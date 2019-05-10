@@ -61,7 +61,7 @@ header nav ul li a {
 }
 
 header nav ul li  a:hover {
-	color: black;	
+	color:grey;	
 }
 
 header nav ul li  a:visited {
