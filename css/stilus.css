@@ -167,7 +167,10 @@ nav#oldalmenu li {display:block}
 article {
 	column-width: 400px;
 	-webkit-column-width: 400px;
-    -moz-column-width: 400px;
+	-moz-column-width: 400px;
+	column-count: 3;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
 }
 
 article#tortenet {
