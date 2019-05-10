@@ -169,7 +169,7 @@ article {
 }
 	
 article#besorolas table {
-	width:300px;
+	position:relative;
 }
 
 }
