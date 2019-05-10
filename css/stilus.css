@@ -72,9 +72,8 @@ article {
 
 article:last-of-type {border:0;}
 
-article aside {
-	float: right;
-	position:relative;		
+img {
+	float:right;
 }
 
 article#leiras aside {
