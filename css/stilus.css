@@ -105,9 +105,7 @@ article#besorolas table {
 	border:3px double gray;	
 	margin:0 auto;
 	position: static;
-	-moz-column-count: 1;
-	-webkit-column-count: 1;
-	column-count: 1;
+	table-layout:fixed;
 }
 
 article#besorolas table th {background-color:orange } 
