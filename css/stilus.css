@@ -111,7 +111,7 @@ article#tortenet {
 
 article#tortenet figure {
 	float: right;
-	margin:20px 40px 10px 10px;
+	margin:20px 20px 10px 10px;
 }
 
 article#pegi {
@@ -130,7 +130,9 @@ article#besorolas table {
 	margin:0 auto;
 }
 
-article#besorolas table th {background-color:orange } 
+article#besorolas table th {
+	background-color:orange 
+} 
 
 article#besorolas table td, article#besorolas table th {
 	border:1px solid gray;
