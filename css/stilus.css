@@ -83,6 +83,11 @@ aside figure {
 	width:auto;
 }
 
+article#leiras aside figure {
+	float:right;
+	position:absolute;
+}
+
 article#leiras aside {
   float:right;
   width:225px;
