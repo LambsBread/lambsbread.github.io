@@ -56,10 +56,15 @@ header nav ul li {
 }
 
 header nav ul li a {
-	text-decoration: none;	
+	text-decoration: none;
+	color: black;	
 }
 
 header nav ul li  a:hover {
+	color: black;	
+}
+
+header nav ul li  a:visited {
 	color: black;	
 }
 
