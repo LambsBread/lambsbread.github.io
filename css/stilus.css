@@ -3,7 +3,7 @@ body {
 	background-color:black;							
 	background-image:url('../kepek/hatter_felso.jpg'), url('../kepek/hatter_also.jpg');
 	background-repeat:no-repeat, repeat-x; 	
-	background-position:10px 0px, bottom;
+	background-position:10px 0px, bottom left;
 	margin-bottom:120px;
 	margin-top:100px;
 }
