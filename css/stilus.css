@@ -191,7 +191,7 @@ article {
 }
 
 article#besorolas table {
-	width: 400px;
+	table-layout: auto;
 }
 
 }
