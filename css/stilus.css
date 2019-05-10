@@ -85,7 +85,7 @@ aside figure {
 
 article#leiras aside figure {
 	float:right;
-	position:absolute;
+	position:relative;
 }
 
 article#leiras aside {
