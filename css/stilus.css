@@ -101,13 +101,13 @@ article#leiras aside p {
 	font-weight:bold;
 	font-size:95%;
 }
-
+/*
 article#tortenet {
 	-webkit-column-width: 350px;
     -moz-column-width: 350px;
 	column-width: 350px;
 	column-gap: 10px;
-}
+}*/
 
 article#tortenet figure {
 	float: right;
