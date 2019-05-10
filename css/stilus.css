@@ -74,6 +74,7 @@ article:last-of-type {border:0;}
 
 aside img {
 	float:right;
+	width:auto;
 }
 
 article#leiras aside {
