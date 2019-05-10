@@ -68,13 +68,6 @@ header nav a {
 	font-variant:big-caps;
 	font-size:1.5em;	
 	margin-right:1em;
-}	
-
-article {
-	-webkit-column-width: 300px;
-    -moz-column-width: 300px;
-	column-width: 300px;
-	column-gap: 20px;
 }
 
 article aside {
@@ -168,12 +161,9 @@ article#leiras  aside {
 nav#oldalmenu li {display:block}
 
 article {
-	column-count: 2;
-	-webkit-column-count: 2;
-    -moz-column-count: 2;
-	-webkit-column-width: 150px;
-    -moz-column-width: 150px;
-	column-width: 150px;
+	column-count: 1;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
 }
 			
 }
