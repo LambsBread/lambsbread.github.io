@@ -154,7 +154,7 @@ nav {display:none}
 
 a:after { content: " (" attr(href) ")";} 
 
-@media screen and (max-width: 1000px) 
+@media screen and (max-width: 1100px) 
 {
 
 article#leiras  aside {
@@ -172,8 +172,9 @@ article {
 }
 	
 article#besorolas table {
-	width: 100%;
+	width:300px;
 }
+
 }
 
 @media screen and (max-width: 700px) 
