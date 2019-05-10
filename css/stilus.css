@@ -67,7 +67,7 @@ article {
 	margin:0 2em;					
 	border-bottom:1px dotted gray;
 	padding-bottom:20px;
-	overflow:hidden;	
+	overflow:hidden;		
 }
 
 article:last-of-type {border:0;}
