@@ -19,7 +19,7 @@ p {
 header, main, footer {
 	width:100%;	
 	min-width:420px;
-	max-width:1080px;
+	max-width:1000px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:0;
